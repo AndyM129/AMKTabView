@@ -19,7 +19,34 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/AndyM129/AMKTabView.git', :tag => s.version.to_s }
     s.platform = :osx
     s.osx.deployment_target = "10.10"    
-    s.source_files = 'AMKTabView/Classes/*.{h,m}'
-    s.public_header_files = 'AMKTabView/Classes/*.h'
+    s.default_subspec = 'AMKTabView'
+
+    # AMKWechatTabViewController 仿微信 左侧的TabViewController
+    s.subspec 'AMKWechatTabViewController' do |tabViewController|
+        tabViewController.source_files = 'AMKTabView/Classes/AMKWechatTabView/*.{h,m}'
+        tabViewController.dependency 'AMKTabView/AMKWechatTabView'
+        tabViewController.dependency 'Masonry'
+    end
+
+    # AMKWechatTabView 仿微信 左侧的TabView
+    s.subspec 'AMKWechatTabView' do |tabView|
+        tabView.source_files = 'AMKTabView/Classes/AMKWechatTabView/*.{h,m}'
+        tabView.dependency 'AMKTabView/AMKTabView'
+        tabView.dependency 'Masonry'
+    end
+
+    # AMKTabViewController
+    s.subspec 'AMKTabViewController' do |tabViewController|
+        tabViewController.source_files = 'AMKTabView/Classes/AMKTabViewController/*.{h,m}'
+        tabViewController.dependency 'AMKTabView/AMKTabView'
+        tabViewController.dependency 'Masonry'
+    end
+
+    # AMKTabView
+    s.subspec 'AMKTabView' do |tabView|
+        tabView.source_files = 'AMKTabView/Classes/AMKTabView/*.{h,m}'
+        tabView.dependency 'AMKCategories/Foundation/NSObject/MethodSwizzling'
+        tabView.dependency 'Masonry'
+    end
 end
 

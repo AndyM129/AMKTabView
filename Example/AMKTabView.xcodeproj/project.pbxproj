@@ -13,6 +13,8 @@
 		882DA90D231A3B1D00376E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DA90C231A3B1D00376E99 /* Assets.xcassets */; };
 		882DA910231A3B1D00376E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882DA90E231A3B1D00376E99 /* Main.storyboard */; };
 		882DA913231A3B1D00376E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA912231A3B1D00376E99 /* main.m */; };
+		882DA92A231A598900376E99 /* AMKExampleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA928231A598900376E99 /* AMKExampleTabViewController.m */; };
+		882DA92F231A635900376E99 /* AMKContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA92E231A635900376E99 /* AMKContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,11 @@
 		882DA911231A3B1D00376E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		882DA912231A3B1D00376E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		882DA914231A3B1D00376E99 /* AMKTabView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMKTabView.entitlements; sourceTree = "<group>"; };
+		882DA927231A598900376E99 /* AMKExampleTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKExampleTabViewController.h; sourceTree = "<group>"; };
+		882DA928231A598900376E99 /* AMKExampleTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMKExampleTabViewController.m; sourceTree = "<group>"; };
+		882DA92D231A635900376E99 /* AMKContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKContentViewController.h; sourceTree = "<group>"; };
+		882DA92E231A635900376E99 /* AMKContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMKContentViewController.m; sourceTree = "<group>"; };
+		882DA935231A756400376E99 /* AMKTabView.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKTabView.pch; sourceTree = "<group>"; };
 		A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMKTabView.debug.xcconfig"; path = "Target Support Files/Pods-AMKTabView/Pods-AMKTabView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,13 +92,34 @@
 				882DA907231A3B1C00376E99 /* AppDelegate.m */,
 				882DA909231A3B1C00376E99 /* ViewController.h */,
 				882DA90A231A3B1C00376E99 /* ViewController.m */,
+				882DA926231A597000376E99 /* AMKTabViewController */,
+				882DA92C231A634900376E99 /* AMKContentViewController */,
 				882DA90C231A3B1D00376E99 /* Assets.xcassets */,
+				882DA935231A756400376E99 /* AMKTabView.pch */,
 				882DA90E231A3B1D00376E99 /* Main.storyboard */,
 				882DA911231A3B1D00376E99 /* Info.plist */,
 				882DA912231A3B1D00376E99 /* main.m */,
 				882DA914231A3B1D00376E99 /* AMKTabView.entitlements */,
 			);
 			path = AMKTabView;
+			sourceTree = "<group>";
+		};
+		882DA926231A597000376E99 /* AMKTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				882DA927231A598900376E99 /* AMKExampleTabViewController.h */,
+				882DA928231A598900376E99 /* AMKExampleTabViewController.m */,
+			);
+			path = AMKTabViewController;
+			sourceTree = "<group>";
+		};
+		882DA92C231A634900376E99 /* AMKContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				882DA92D231A635900376E99 /* AMKContentViewController.h */,
+				882DA92E231A635900376E99 /* AMKContentViewController.m */,
+			);
+			path = AMKContentViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				882DA90B231A3B1C00376E99 /* ViewController.m in Sources */,
+				882DA92F231A635900376E99 /* AMKContentViewController.m in Sources */,
 				882DA913231A3B1D00376E99 /* main.m in Sources */,
 				882DA908231A3B1C00376E99 /* AppDelegate.m in Sources */,
+				882DA92A231A598900376E99 /* AMKExampleTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9X349G8KD4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AMKTabView/AMKTabView.pch";
 				INFOPLIST_FILE = AMKTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9X349G8KD4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AMKTabView/AMKTabView.pch";
 				INFOPLIST_FILE = AMKTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,21 @@
+//
+//  AMKTabView.pch
+//  AMKTabView
+//
+//  Created by 孟昕欣 on 2019/8/31.
+//  Copyright © 2019 Andy Meng. All rights reserved.
+//
+
+#ifndef AMKTabView_pch
+#define AMKTabView_pch
+
+#pragma mark - 全局宏
+#import <Foundation/Foundation.h>
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s Line %d: %s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+
+#pragma mark - 本地库
+
+#pragma mark - 三方库
+#import <Masonry/Masonry.h>
+
+#endif /* AMKTabView_pch */

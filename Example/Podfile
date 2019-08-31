@@ -11,7 +11,10 @@ puts ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n"
 
 target target_name do
 	# 本地库
-  	pod 'AMKTabView', :path => '../'
+  	pod 'AMKTabView/AMKTabView', :path => '../'
+    pod 'AMKTabView/AMKTabViewController', :path => '../'
 
   	# 第三方库
+  	pod 'AMKCategories/Foundation/NSObject/MethodSwizzling', :git => 'https://github.com/AndyM129/AMKCategories.git', :branch => 'master'
+
 end

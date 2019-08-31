@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "AMKExampleTabViewController.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : AMKExampleTabViewController
 
 
 @end
