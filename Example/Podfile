@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+
+
+# Target名称
+target_name = 'AMKTabView'
+
+puts ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n"
+puts "#{target_name} Pod依赖加载中...\n\n"
+puts ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n"
+
+target target_name do
+	# 本地库
+  	pod 'AMKTabView', :path => '../'
+
+  	# 第三方库
+end

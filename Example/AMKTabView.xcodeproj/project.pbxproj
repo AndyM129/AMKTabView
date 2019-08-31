@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D89BFEE8C77B38B9DD9CC48 /* libPods-AMKTabView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 787C7677F7FADEC7B3A7948C /* libPods-AMKTabView.a */; };
+		882DA908231A3B1C00376E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA907231A3B1C00376E99 /* AppDelegate.m */; };
+		882DA90B231A3B1C00376E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA90A231A3B1C00376E99 /* ViewController.m */; };
+		882DA90D231A3B1D00376E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DA90C231A3B1D00376E99 /* Assets.xcassets */; };
+		882DA910231A3B1D00376E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882DA90E231A3B1D00376E99 /* Main.storyboard */; };
+		882DA913231A3B1D00376E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA912231A3B1D00376E99 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		787C7677F7FADEC7B3A7948C /* libPods-AMKTabView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMKTabView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A8D1E2B232137FC5E97C0D /* Pods-AMKTabView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMKTabView.release.xcconfig"; path = "Target Support Files/Pods-AMKTabView/Pods-AMKTabView.release.xcconfig"; sourceTree = "<group>"; };
+		882DA903231A3B1C00376E99 /* AMKTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMKTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882DA906231A3B1C00376E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		882DA907231A3B1C00376E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		882DA909231A3B1C00376E99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		882DA90A231A3B1C00376E99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		882DA90C231A3B1D00376E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882DA90F231A3B1D00376E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882DA911231A3B1D00376E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882DA912231A3B1D00376E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882DA914231A3B1D00376E99 /* AMKTabView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMKTabView.entitlements; sourceTree = "<group>"; };
+		A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMKTabView.debug.xcconfig"; path = "Target Support Files/Pods-AMKTabView/Pods-AMKTabView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882DA900231A3B1C00376E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D89BFEE8C77B38B9DD9CC48 /* libPods-AMKTabView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7101149D4E37655C4514FA1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */,
+				80A8D1E2B232137FC5E97C0D /* Pods-AMKTabView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75D997FC4343089349CCDB4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787C7677F7FADEC7B3A7948C /* libPods-AMKTabView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882DA8FA231A3B1C00376E99 = {
+			isa = PBXGroup;
+			children = (
+				882DA905231A3B1C00376E99 /* AMKTabView */,
+				882DA904231A3B1C00376E99 /* Products */,
+				7101149D4E37655C4514FA1B /* Pods */,
+				75D997FC4343089349CCDB4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		882DA904231A3B1C00376E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882DA903231A3B1C00376E99 /* AMKTabView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882DA905231A3B1C00376E99 /* AMKTabView */ = {
+			isa = PBXGroup;
+			children = (
+				882DA906231A3B1C00376E99 /* AppDelegate.h */,
+				882DA907231A3B1C00376E99 /* AppDelegate.m */,
+				882DA909231A3B1C00376E99 /* ViewController.h */,
+				882DA90A231A3B1C00376E99 /* ViewController.m */,
+				882DA90C231A3B1D00376E99 /* Assets.xcassets */,
+				882DA90E231A3B1D00376E99 /* Main.storyboard */,
+				882DA911231A3B1D00376E99 /* Info.plist */,
+				882DA912231A3B1D00376E99 /* main.m */,
+				882DA914231A3B1D00376E99 /* AMKTabView.entitlements */,
+			);
+			path = AMKTabView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882DA902231A3B1C00376E99 /* AMKTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882DA917231A3B1D00376E99 /* Build configuration list for PBXNativeTarget "AMKTabView" */;
+			buildPhases = (
+				C5BAA2293969F23AD3C54A76 /* [CP] Check Pods Manifest.lock */,
+				882DA8FF231A3B1C00376E99 /* Sources */,
+				882DA900231A3B1C00376E99 /* Frameworks */,
+				882DA901231A3B1C00376E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMKTabView;
+			productName = AMKTabView;
+			productReference = 882DA903231A3B1C00376E99 /* AMKTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882DA8FB231A3B1C00376E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Andy Meng";
+				TargetAttributes = {
+					882DA902231A3B1C00376E99 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 882DA8FE231A3B1C00376E99 /* Build configuration list for PBXProject "AMKTabView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882DA8FA231A3B1C00376E99;
+			productRefGroup = 882DA904231A3B1C00376E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882DA902231A3B1C00376E99 /* AMKTabView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882DA901231A3B1C00376E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882DA90D231A3B1D00376E99 /* Assets.xcassets in Resources */,
+				882DA910231A3B1D00376E99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5BAA2293969F23AD3C54A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMKTabView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882DA8FF231A3B1C00376E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882DA90B231A3B1C00376E99 /* ViewController.m in Sources */,
+				882DA913231A3B1D00376E99 /* main.m in Sources */,
+				882DA908231A3B1C00376E99 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		882DA90E231A3B1D00376E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882DA90F231A3B1D00376E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882DA915231A3B1D00376E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		882DA916231A3B1D00376E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		882DA918231A3B1D00376E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AMKTabView/AMKTabView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9X349G8KD4;
+				INFOPLIST_FILE = AMKTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andym129.github.io.AMKTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		882DA919231A3B1D00376E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A8D1E2B232137FC5E97C0D /* Pods-AMKTabView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AMKTabView/AMKTabView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9X349G8KD4;
+				INFOPLIST_FILE = AMKTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andym129.github.io.AMKTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882DA8FE231A3B1C00376E99 /* Build configuration list for PBXProject "AMKTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882DA915231A3B1D00376E99 /* Debug */,
+				882DA916231A3B1D00376E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882DA917231A3B1D00376E99 /* Build configuration list for PBXNativeTarget "AMKTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882DA918231A3B1D00376E99 /* Debug */,
+				882DA919231A3B1D00376E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882DA8FB231A3B1C00376E99 /* Project object */;
+}
