@@ -49,7 +49,6 @@
 				A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */,
 				80A8D1E2B232137FC5E97C0D /* Pods-AMKTabView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -335,6 +334,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = andym129.github.io.AMKTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +354,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = andym129.github.io.AMKTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
