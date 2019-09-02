@@ -14,7 +14,7 @@
 
 | ![](https://raw.githubusercontent.com/AndyM129/ImageHosting/master/images/20190902211710.png) | ![](https://raw.githubusercontent.com/AndyM129/ImageHosting/master/images/20190902211744.png) | ![](https://raw.githubusercontent.com/AndyM129/ImageHosting/master/images/20190902211612.png) | ![](https://raw.githubusercontent.com/AndyM129/ImageHosting/master/images/20190902211819.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                      AMKTabPositionTop                       |                      AMKTabPositionLeft                      |                     AMKTabPositionRight                      |                     AMKTabPositionRight                    |
+|                      AMKTabPositionTop                       |                      AMKTabPositionLeft                      |                     AMKTabPositionBottom                      |                     AMKTabPositionRight                    |
 
 ### AMKWechatTabViewController.h
 
