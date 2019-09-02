@@ -15,6 +15,7 @@
 		882DA913231A3B1D00376E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA912231A3B1D00376E99 /* main.m */; };
 		882DA92A231A598900376E99 /* AMKExampleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA928231A598900376E99 /* AMKExampleTabViewController.m */; };
 		882DA92F231A635900376E99 /* AMKContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA92E231A635900376E99 /* AMKContentViewController.m */; };
+		882DA941231A7A2B00376E99 /* AMKExampleWechatTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DA940231A7A2B00376E99 /* AMKExampleWechatTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		882DA92D231A635900376E99 /* AMKContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKContentViewController.h; sourceTree = "<group>"; };
 		882DA92E231A635900376E99 /* AMKContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMKContentViewController.m; sourceTree = "<group>"; };
 		882DA935231A756400376E99 /* AMKTabView.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKTabView.pch; sourceTree = "<group>"; };
+		882DA93F231A7A2B00376E99 /* AMKExampleWechatTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMKExampleWechatTabViewController.h; sourceTree = "<group>"; };
+		882DA940231A7A2B00376E99 /* AMKExampleWechatTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMKExampleWechatTabViewController.m; sourceTree = "<group>"; };
 		A9999622FF02397ACE85FFF3 /* Pods-AMKTabView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMKTabView.debug.xcconfig"; path = "Target Support Files/Pods-AMKTabView/Pods-AMKTabView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +96,7 @@
 				882DA909231A3B1C00376E99 /* ViewController.h */,
 				882DA90A231A3B1C00376E99 /* ViewController.m */,
 				882DA926231A597000376E99 /* AMKTabViewController */,
+				882DA93E231A7A1900376E99 /* AMKExampleWechatTabViewController */,
 				882DA92C231A634900376E99 /* AMKContentViewController */,
 				882DA90C231A3B1D00376E99 /* Assets.xcassets */,
 				882DA935231A756400376E99 /* AMKTabView.pch */,
@@ -120,6 +124,15 @@
 				882DA92E231A635900376E99 /* AMKContentViewController.m */,
 			);
 			path = AMKContentViewController;
+			sourceTree = "<group>";
+		};
+		882DA93E231A7A1900376E99 /* AMKExampleWechatTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				882DA93F231A7A2B00376E99 /* AMKExampleWechatTabViewController.h */,
+				882DA940231A7A2B00376E99 /* AMKExampleWechatTabViewController.m */,
+			);
+			path = AMKExampleWechatTabViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 				882DA90B231A3B1C00376E99 /* ViewController.m in Sources */,
 				882DA92F231A635900376E99 /* AMKContentViewController.m in Sources */,
 				882DA913231A3B1D00376E99 /* main.m in Sources */,
+				882DA941231A7A2B00376E99 /* AMKExampleWechatTabViewController.m in Sources */,
 				882DA908231A3B1C00376E99 /* AppDelegate.m in Sources */,
 				882DA92A231A598900376E99 /* AMKExampleTabViewController.m in Sources */,
 			);

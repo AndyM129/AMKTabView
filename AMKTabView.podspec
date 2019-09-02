@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
     # AMKWechatTabViewController 仿微信 左侧的TabViewController
     s.subspec 'AMKWechatTabViewController' do |tabViewController|
-        tabViewController.source_files = 'AMKTabView/Classes/AMKWechatTabView/*.{h,m}'
+        tabViewController.source_files = 'AMKTabView/Classes/AMKWechatTabViewController/*.{h,m}'
         tabViewController.dependency 'AMKTabView/AMKWechatTabView'
         tabViewController.dependency 'Masonry'
     end

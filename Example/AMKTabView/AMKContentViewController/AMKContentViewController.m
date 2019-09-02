@@ -68,6 +68,14 @@
         _textField.editable = NO;
         _textField.drawsBackground = NO;
         _textField.bordered = NO;
+        _textField.wantsLayer = YES;
+        _textField.shadow = ({
+            NSShadow *shadow = [[NSShadow alloc] init];
+            shadow.shadowColor = [NSColor colorWithWhite:0 alpha:0.45];
+            shadow.shadowOffset = NSMakeSize(2, 2);
+            shadow.shadowBlurRadius = 1;
+            shadow;
+        });
         [self.view addSubview:_textField];
         [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.mas_equalTo(self.view).priorityLow();

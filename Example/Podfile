@@ -13,6 +13,8 @@ target target_name do
 	# 本地库
   	pod 'AMKTabView/AMKTabView', :path => '../'
     pod 'AMKTabView/AMKTabViewController', :path => '../'
+    pod 'AMKTabView/AMKWechatTabView', :path => '../'
+    pod 'AMKTabView/AMKWechatTabViewController', :path => '../'
 
   	# 第三方库
   	pod 'AMKCategories/Foundation/NSObject/MethodSwizzling', :git => 'https://github.com/AndyM129/AMKCategories.git', :branch => 'master'

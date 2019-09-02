@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 #import "AMKExampleTabViewController.h"
+#import "AMKExampleWechatTabViewController.h"
 
-@interface ViewController : AMKExampleTabViewController
+
+@interface ViewController : AMKExampleWechatTabViewController
 
 
 @end
