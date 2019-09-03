@@ -45,7 +45,6 @@ Pod::Spec.new do |s|
     # AMKTabView
     s.subspec 'AMKTabView' do |tabView|
         tabView.source_files = 'AMKTabView/Classes/AMKTabView/*.{h,m}'
-        tabView.dependency 'AMKCategories/Foundation/NSObject/MethodSwizzling'
         tabView.dependency 'Masonry'
     end
 end
